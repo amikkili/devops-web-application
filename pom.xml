@@ -12,7 +12,7 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>Anil software Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -108,6 +108,13 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
+	<pluginRepositories>
+	    <pluginRepository>    
+		<id>maven1</id>
+		<name>Maven.org</name>
+		<url>http://repo1.maven.org/maven2</url>
+	    </pluginRepository>
+	</pluginRepositories>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
